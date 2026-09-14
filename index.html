@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список задач</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="task-list">
+      <div class="task-list__container">
+        <ul class="task-list__items">
+          <li class="task-list__item">
+            <article class="task-card">
+              <span class="task-card__status-indicator"></span>
+              <div class="task-card__body">
+                <header class="task-card__header">
+                  <div class="task-card__title-group">
+                    <h2 class="task-card__title">Подготовить новый интерфейс страницы обучения</h2>
+                    <p class="task-card__description">Переработать структуру блоков, улучшить визуальную иерархию и обновить систему отступов внутри интерфейса.</p>
+                  </div>
+                  <button class="task-card__more-button" type="button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 10.8333C10.4603 10.8333 10.8334 10.4602 10.8334 9.99999C10.8334 9.53975 10.4603 9.16666 10 9.16666C9.53978 9.16666 9.16669 9.53975 9.16669 9.99999C9.16669 10.4602 9.53978 10.8333 10 10.8333Z" stroke="#70809B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M15.8333 10.8333C16.2936 10.8333 16.6667 10.4602 16.6667 9.99999C16.6667 9.53975 16.2936 9.16666 15.8333 9.16666C15.3731 9.16666 15 9.53975 15 9.99999C15 10.4602 15.3731 10.8333 15.8333 10.8333Z" stroke="#70809B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M4.16665 10.8333C4.62688 10.8333 4.99998 10.4602 4.99998 9.99999C4.99998 9.53975 4.62688 9.16666 4.16665 9.16666C3.70641 9.16666 3.33331 9.53975 3.33331 9.99999C3.33331 10.4602 3.70641 10.8333 4.16665 10.8333Z" stroke="#70809B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </header>
+                <ul class="task-card__tags">
+                  <li class="task-card__tag-item">
+                    <span class="task-card__tag">Flexbox</span>
+                  </li>
+                  <li class="task-card__tag-item">
+                    <span class="task-card__tag">UI</span>
+                  </li>
+                  <li class="task-card__tag-item">
+                    <span class="task-card__tag">Dashboard</span>
+                  </li>
+                </ul>
+                <footer class="task-card__footer">
+                  <ul class="task-card__assignees">
+                    <li class="task-card__assignee">
+                      <img class="task-card__avatar" src="./img/1.jpg" alt="Имя Исполнителя 1" width="32" height="32">
+                    </li>
+                    <li class="task-card__assignee">
+                      <img class="task-card__avatar" src="./img/2.jpg" alt="Имя Исполнителя 2" width="32" height="32">
+                    </li>
+                    <li class="task-card__assignee">
+                      <img class="task-card__avatar" src="./img/3.jpg" alt="Имя Исполнителя 3" width="32" height="32">
+                    </li>
+                  </ul>
+                  <div class="task-card__action-group">
+                    <time class="task-card__deadline" datetime="2026-05-18">До 18 мая</time>
+                    <button class="task-card__open-button" type="button">Открыть задачу</button>
+                  </div>
+                </footer>
+              </div>
+            </article>
+          </li>
+          <li class="task-list__item">
+            <article class="task-card">
+              <span class="task-card__status-indicator"></span>
+              <div class="task-card__body">
+                <header class="task-card__header">
+                  <div class="task-card__title-group">
+                    <h2 class="task-card__title">Обновить карточки профиля пользователей и систему достижений</h2>
+                    <p class="task-card__description">Привести компоненты к единому стилю платформы, переработать spacing и улучшить композицию интерфейса.</p>
+                  </div>
+                  <button class="task-card__more-button" type="button">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 10.8333C10.4603 10.8333 10.8334 10.4602 10.8334 9.99999C10.8334 9.53975 10.4603 9.16666 10 9.16666C9.53978 9.16666 9.16669 9.53975 9.16669 9.99999C9.16669 10.4602 9.53978 10.8333 10 10.8333Z" stroke="#70809B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M15.8333 10.8333C16.2936 10.8333 16.6667 10.4602 16.6667 9.99999C16.6667 9.53975 16.2936 9.16666 15.8333 9.16666C15.3731 9.16666 15 9.53975 15 9.99999C15 10.4602 15.3731 10.8333 15.8333 10.8333Z" stroke="#70809B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M4.16665 10.8333C4.62688 10.8333 4.99998 10.4602 4.99998 9.99999C4.99998 9.53975 4.62688 9.16666 4.16665 9.16666C3.70641 9.16666 3.33331 9.53975 3.33331 9.99999C3.33331 10.4602 3.70641 10.8333 4.16665 10.8333Z" stroke="#70809B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </header>
+                <ul class="task-card__tags">
+                  <li class="task-card__tag-item">
+                    <span class="task-card__tag">Components</span>
+                  </li>
+                  <li class="task-card__tag-item">
+                    <span class="task-card__tag">Design System</span>
+                  </li>
+                  <li class="task-card__tag-item">
+                    <span class="task-card__tag">Profile</span>
+                  </li>
+                  <li class="task-card__tag-item">
+                    <span class="task-card__tag">UI Kit</span>
+                  </li>
+                </ul>
+                <footer class="task-card__footer">
+                  <ul class="task-card__assignees">
+                    <li class="task-card__assignee">
+                      <img class="task-card__avatar" src="./img/4.jpg" alt="Имя Исполнителя 4" width="32" height="32">
+                    </li>
+                    <li class="task-card__assignee">
+                      <img class="task-card__avatar" src="./img/5.jpg" alt="Имя Исполнителя 5" width="32" height="32">
+                    </li>
+                  </ul>
+                  <div class="task-card__action-group">
+                    <time class="task-card__deadline" datetime="2026-05-18">До 18 мая</time>
+                    <button class="task-card__open-button" type="button">Открыть задачу</button>
+                  </div>
+                </footer>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
